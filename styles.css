@@ -18,7 +18,7 @@ html, body {
 
 .roadmap-container {
     background-color: white;
-    margin: auto;
+    margin: 10px auto;
     width: 900px;
     display: flex;
     justify-content: center;
@@ -27,5 +27,6 @@ html, body {
 .roadmap-column {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
