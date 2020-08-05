@@ -8,10 +8,22 @@
     box-shadow: 0 10px 100px rgba(107, 107, 107, 0.16);
     border-radius: 10px;
     margin: 10px;
+    transition: .4s;
+}
+
+.map-item:hover {
+    transform: scale(1.02, 1.02);
+    transform: translateY(-5px);
 }
 
 .item-dark {
     --color-background: #29282e;
+    --color-title: white;
+    --color-text: white;
+}
+
+.item-blue {
+    --color-background: #213f64;
     --color-title: white;
     --color-text: white;
 }
@@ -42,7 +54,7 @@
 
 /* ------- Item styles ------- */
 .item-title {
-    font-weight: 800;
+    font-family: "Avenir Next Heavy";
     font-size: 20px;
     color: var(--color-title);
     text-align: center;
@@ -55,6 +67,19 @@
     padding: 25px 30px 0 30px;
     justify-content: space-between;
     box-sizing: border-box;
+}
+
+.item-column {
+    width: 33%;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+.column-title {
+    color: var(--color-title);
+    font-size: 15px;
+    font-family: "Avenir Next Bold";
 }
 
 .item-image {
@@ -71,6 +96,17 @@
     height: 70px;
     margin-top: 5px;
     margin-bottom: 20px;
+}
+
+.item-image[src="assets/7-Xamarin.png"] {
+    height: 90px;
+    margin-top: 5px;
+}
+
+.item-image[src="assets/10-Orange.png"] {
+    height: 90px;
+    width: 100px;
+    margin-bottom: 10px;
 }
 
 .item-content {

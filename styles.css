@@ -1,16 +1,23 @@
 @font-face {
-    font-family: "Avenir Next";
-    src: 'assets/Avenir Next.ttc';
+    font-family: "Avenir Next Regular";
+    src: url('fonts/AvenirNext-Regular.ttf');
+}
+@font-face {
+    font-family: "Avenir Next Heavy";
+    src: url('fonts/AvenirNext-Heavy.ttf');
+}
+@font-face {
+    font-family: "Avenir Next Bold";
+    src: url('fonts/AvenirNext-Bold.ttf');
 }
 
 html, body {
     margin: 0;
-    font-family: "Avenir Next"
+    font-family: "Avenir Next Regular"
 }
 
 .roadmap-container {
     background-color: white;
-    height: 2000px;
     margin: auto;
     width: 900px;
     display: flex;

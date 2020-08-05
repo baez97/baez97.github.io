@@ -1,0 +1,36 @@
+@media (max-width: 640px) {
+    .roadmap-container {
+        flex-direction: column;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .roadmap-column {
+        box-sizing: border-box;
+        margin: auto;
+    }
+
+    .map-item {
+        width: 90vw;
+    }
+
+    .item-title {
+        margin-top: 10px;
+    }
+
+    .item-content {
+        margin: auto;
+    }
+
+    .item-image {
+        display: none;
+    }
+
+    .item-wide-text {
+        max-width: 250px;
+    }
+
+    .bdg-github {
+        display: none;
+    }
+}
