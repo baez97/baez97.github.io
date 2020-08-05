@@ -1,0 +1,48 @@
+.roadmap-lines-column {
+    width: 100px;
+}
+
+.line {
+    width: 40px;
+    height: 17px;
+    background-color: #ccc;
+    margin: 0 -5px;
+}
+
+.curved-line {
+    width: 300px;
+    height: 100px;
+    border-right: 17px solid #ccc;
+    border-bottom: 17px solid #ccc;
+    border-radius: 40px;
+}
+
+.vertical {
+    width: 17px;
+    height: 60px;
+    display: block;
+    z-index: 1;
+    margin: -30px 0;
+}
+
+#from1-to2 {
+    margin-top: 120px;
+}
+
+#from3-to4 {
+    margin-top: 300px;
+}
+
+#from5-to6 {
+    margin-top: 400px;
+}
+
+#from7-to8 {
+    margin-top: 270px;
+    margin-right: -500px;
+    margin-left: -50px;
+}
+
+#from9-to10 {
+    margin-top: 250px;
+}

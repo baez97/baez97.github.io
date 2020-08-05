@@ -30,3 +30,8 @@ html, body {
     align-items: center;
 }
 
+.main-title {
+    font-family: 'Avenir Next Heavy';
+    color: #363546;
+    text-align: center;
+}
