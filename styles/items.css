@@ -86,7 +86,7 @@
 
 .item-image {
     width: 100px;
-    height: auto;
+    height: 100px;
 }
 
 .item-image[src="assets/3-Vermon.png"] {
@@ -109,6 +109,10 @@
     height: 90px;
     width: 100px;
     margin-bottom: 10px;
+}
+
+.item-image[src="assets/5-TFG.png"] {
+    height: 200px;
 }
 
 .item-content {

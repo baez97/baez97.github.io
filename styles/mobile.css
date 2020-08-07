@@ -33,4 +33,8 @@
     .bdg-github {
         display: none;
     }
+
+    .roadmap-lines-column {
+        display: none;
+    }
 }
