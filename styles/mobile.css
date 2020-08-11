@@ -1,4 +1,4 @@
-@media (max-width: 640px) {
+@media (max-width: 768px) {
     .roadmap-container {
         flex-direction: column;
         box-sizing: border-box;
@@ -36,5 +36,41 @@
 
     .roadmap-lines-column {
         display: none;
+    }
+
+    .vertical.mobile-only {
+        display: block;
+    }
+
+    .roadmap-container {
+        margin-top: 20px;
+    }
+
+    .map-item {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 374px) {
+    .map-item {
+        width: 95vw;
+        margin-top: 0px;
+    }
+
+    .roadmap-container {
+        margin-top: 30px;
+    }
+    
+    .body-with-columns {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .item-wide-text {
+        padding: 0 30px;
+    }
+
+    .badge {
+        text-align: center;
     }
 }

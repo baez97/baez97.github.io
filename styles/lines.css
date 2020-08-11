@@ -7,6 +7,7 @@
     height: 17px;
     background-color: #ccc;
     margin: 0 -5px;
+    transition: background-color, .2s;
 }
 
 .curved-line {
@@ -45,4 +46,8 @@
 
 #from9-to10 {
     margin-top: 250px;
+}
+
+.mobile-only {
+    display: none;
 }
